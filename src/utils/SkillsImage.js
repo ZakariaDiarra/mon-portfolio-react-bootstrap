@@ -68,8 +68,6 @@ export const skillsImage = (skill) => {
             return git;
         case 'materialui':
             return materialui;
-        case 'Firebase':
-            return firebase;
         case 'wordpress':
             return wordpress;
         case 'figma':

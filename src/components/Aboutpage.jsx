@@ -18,8 +18,7 @@ function Aboutpage() {
               Je suis Développeur Frontend junior et passionné.
               J'apprécie le code qui va droit au but et j'essaie toujours de
               proposer une expérience web fluide et efficace. Pour cela,
-              j'utilise plusieurs technologies, à base de Javascript notamment...<br /><br /> Par ailleurs, je suis très sociable et serviable
-              mes soft skills sont nombreux mais principalement lié à ma culture générale.
+              j'utilise plusieurs technologies, à base de Javascript notamment...<br /><br /> Par ailleurs, je suis très sociable, serviable, cultivé et bilingue.
               Alors, j'espère intégrer une équipe de talentueux développeurs pour apporter ma contribution technique et humaine, grandir avec une entreprise ambitieuse!🚀
             </p>
             <div className="skillsContainer">

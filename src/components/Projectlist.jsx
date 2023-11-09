@@ -1,6 +1,6 @@
 import ProjectCard from "../components/Projectcard";
 import { Container, Row, Col } from "react-bootstrap";
-import bibi from "/src/assets/images/bibi.png";
+import bibi from "/img/bibi.png";
 import "../pages/style.css";
 
 function Projectlist() {
