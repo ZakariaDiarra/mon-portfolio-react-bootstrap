@@ -3,6 +3,11 @@ import Marquee from "react-fast-marquee";
 import { skillsData } from "../data/SkillsData";
 import { skillsImage } from "../utils/SkillsImage";
 import "../pages/style.css";
+
+import myCert1 from "../Assets/metafront.png";
+import myCert2 from "../Assets/metaback.png";
+
+
 import ReadMore from "./ReadMore";
 
 
@@ -57,7 +62,7 @@ function Aboutpage() {
           <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <Col md={6} className="project-card">
               <Card className="cert-card-view">
-                <Card.Img variant="top" src="src/Assets/metafront.png" alt="certif-img" />
+                <Card.Img variant="top" src={myCert1} alt="certif-img" />
                 <Card.Body>
                   <Card.Title><h2>Meta FrontEnd Developer</h2></Card.Title>
                   <Card.Text>
@@ -68,7 +73,7 @@ function Aboutpage() {
             </Col>
             <Col md={6} className="project-card">
               <Card className="cert-card-view">
-                <Card.Img variant="top" src="src/Assets/metaback.png" alt="certif-img" />
+                <Card.Img variant="top" src={myCert2} alt="certif-img" />
                 <Card.Body>
                   <Card.Title><h2>Meta BackEnd Developer</h2></Card.Title>
                   <Card.Text>
