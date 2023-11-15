@@ -1,25 +1,46 @@
-import { Container } from "react-bootstrap";
+import { Container, Form, Button, Row } from "react-bootstrap";
 import "../pages/style.css";
+import Typewriter from "typewriter-effect";
+
+
 
 function Contactpage() {
   return (
     <div className="contactbackground">
       <Container>
-        <h2 className="contacthead">Contact</h2>
-        <p className="contactpara">
-          Je suis à la recherche d'une opportunité de Développeur FrontEnd junior. <br /> En effet, j'ai plus de deux ans d'expériences dans le développement web
-           et l'envie de vouloir toujours apprendre de nouvelles technologies.
-          <br /> Si vous avez des questions à me poser ou êtes intéressé par mon profil, <br />
-          Je me tiens à votre entière disposition!
-        </p>
-        <button
-          className="contactbtn"
-          onClick={() => {
-            window.open("https://www.linkedin.com/in/zakaria-diarra-17bb55156/");
-          }}
-        >
-          LinkedIn
-        </button>
+        <div>
+          <h2 className="contacthead">Contact</h2>
+          <p className="contactpara">
+            Je suis à la recherche d'une opportunité d'entrée en tant que développeur junior en Frontend ou Backend. <br /> En effet, j'ai plus de deux ans d'expériences dans le développement fullstack
+            car j'ai commencé la programmation en voulant concrétiser certaines de mes idées. Alors j'apprends les stacks lorque le besoin s'en fait.
+            <br /> Si vous avez des questions à me poser ou êtes intéressé par mon profil, <br />
+            Je me tiens à votre entière disposition! Contactez-moi via Linkedin, par Mail ou par Téléphone :
+          </p>
+        </div>
+        <div className="contact-email">
+          <Typewriter
+            options={{
+              strings: [
+                "zak@viafro.com",
+                "Tel: (+33) 06.74.26.42.71",
+                "zbdiarra31@gmail.com",
+                ],
+              autoStart: true,
+              loop: true,
+              deleteSpeed: 15,
+              }}
+                />
+        </div>
+
+          <button
+            className="contactbtn"
+            onClick={() => {
+              window.open("https://www.linkedin.com/in/zakaria-diarra-17bb55156/");
+            }}
+          >
+            LinkedIn
+          </button>
+        
         {/*
         <Form className="contactform">
           <Row>
@@ -41,6 +62,8 @@ function Contactpage() {
           </Row>
         </Form>
         */}
+      </Container>
+      <Container>
         <p className="copyright">
           © Copyright 2023
           <hr />

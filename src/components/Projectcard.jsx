@@ -1,4 +1,5 @@
-/* eslint-disable react/prop-types */
+
+
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import "../pages/style.css";
@@ -15,7 +16,7 @@ function ProjectCard(props) {
           {props.description}
         </Card.Text>
         <Button className="viewbtn" variant="primary" href={props.ghLink} target="_blank">
-          Voir Code
+          Voir Live
         </Button>
 
         {!props.isBlog && props.demoLink && (

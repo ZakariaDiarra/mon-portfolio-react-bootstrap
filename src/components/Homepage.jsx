@@ -14,9 +14,9 @@ function Home() {
         <Row>
           <Col md={7}>
             <h2 className="headtext">
-              Salut <span className="wave">👋 </span>
+              Bonjour <span className="wave">⌨️</span>
             </h2>
-            <h2 className="nametext">Je m'appelle Zakaria Diarra</h2>
+            <h2 className="nametext">Je suis Zakaria</h2>
             <span></span>
             <Text />
             <button
