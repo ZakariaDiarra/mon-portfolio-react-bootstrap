@@ -300,7 +300,7 @@
 }
 .aboutmetext {
   font-size: 2em !important;
-  color: #000000 !important;
+  color: #222121 !important;
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }
@@ -321,7 +321,7 @@
 .aboutdetails {
   font-size: 1.1em !important;
   font-family: 'Poppins';
-  color: #000000;
+  color: #1a1a1a;
 }
 .skilllist li {
   letter-spacing: 1px;
@@ -339,8 +339,9 @@
 }
 .webimage {
   max-width: 500px;
-  height: 350px;
-  background-image: url(../assets/Web-designer-1024x821.webp);
+  height: 450px;
+  background-image: url(../assets/zakdevdad.jpg);
+  border-radius: 30px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -427,7 +428,7 @@
 .btn-primary {
   color: #000000 !important;
   background-color: transparent !important;
-  border-color: #000000 !important;
+  border-color: transparent !important;
 }
 
 .btn-primary:hover {

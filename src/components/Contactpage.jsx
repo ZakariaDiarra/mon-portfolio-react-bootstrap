@@ -22,7 +22,7 @@ function Contactpage() {
             options={{
               strings: [
                 "zak@viafro.com",
-                "Tel: (+33) 06.74.26.42.71",
+                "(+33) 06.74.26.42.71",
                 "zbdiarra31@gmail.com",
                 ],
               autoStart: true,
