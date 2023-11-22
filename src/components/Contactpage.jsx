@@ -11,10 +11,12 @@ function Contactpage() {
         <div>
           <h2 className="contacthead">Contact</h2>
           <p className="contactpara">
-            Je suis à la recherche d'une opportunité d'entrée en tant que développeur junior en Frontend ou Backend. <br /> En effet, j'ai plus de deux ans d'expériences dans le développement fullstack
-            car j'ai commencé la programmation en voulant concrétiser certaines de mes idées. Alors j'apprends les stacks lorque le besoin s'en fait.
+            Je suis à la recherche d'une opportunité d'entrée en tant que développeur débutant en Frontend ou Backend. <br /> En effet, j'ai plus de deux ans d'expériences dans le développement web en ayant commencé avec des sites Wordpress.
+            Ainsi, pour renforcer mes projets wordpress avec du CSS additionnel, j'ai commencé à coder petit à petit en HTML, CSS et 
+            Javascript jusqu'à la découverte des différents framework qui ont emmené mes capacités de développeur à un niveau satisfaisant bien que le chemin soit encore long vers la perfection.
+            Mon plus gros atout est ma capacité à m'adapter et à m'approprier l'esprit de l'équipe à laquelle j'appartiens. Aussi, je suis toujours motivé et déterminé à donner le meilleur de moi-même.
             <br /> Si vous avez des questions à me poser ou êtes intéressé par mon profil, <br />
-            Je me tiens à votre entière disposition! Contactez-moi via Linkedin, par Mail ou par Téléphone :
+            Je me tiens à votre disposition! Contactez-moi :
           </p>
         </div>
         <div className="contact-email">
@@ -22,12 +24,12 @@ function Contactpage() {
             options={{
               strings: [
                 "zak@viafro.com",
-                "(+33) 06.74.26.42.71",
+                "06.74.26.42.71",
                 "zbdiarra31@gmail.com",
                 ],
               autoStart: true,
               loop: true,
-              deleteSpeed: 15,
+              deleteSpeed: 10,
               }}
                 />
         </div>

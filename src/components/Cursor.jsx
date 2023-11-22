@@ -29,19 +29,20 @@ const Cursor = () => {
 
   const cursorStyles = {
     position: 'fixed',
-    width: '16px',
-    height: '16px',
+    width: '14px',
+    height: '14px',
     borderRadius: '50%',
     backgroundColor: 'rgba(25, 25, 25, 0.5)',
     pointerEvents: 'none',
     zIndex: 9999,
+    boxShadow: '0 0 10px rgba(106, 90, 205, 0.7)',
   };
 
   const duplicateCursorStyles = {
     ...cursorStyles,
-    transform: `scale(${isMoving ? 2.0 : 1})`,
-    transition: 'transform 0.05s ease',
-    animation: `${isMoving ? 'pulse 0.5s infinite' : ''}`,
+    transform: `scale(${isMoving ? 1.5 : 1})`,
+    transition: 'transform 0.1s ease',
+    animation: `${isMoving ? 'pulse 1.2s infinite' : ''}`,
   };
 
   return (

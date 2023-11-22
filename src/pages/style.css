@@ -76,9 +76,21 @@
   width: 60px;
   height: 60px;
 }
+.logo:hover {
+    transition: all 500ms;
+    animation: vibrate 30ms linear infinite forwards;
+}
+@keyframes vibrate {
+  0% {
+    transform: translateX(-1px) translateY(1px);
+  }
+  100% {
+    transform: translateX(1px) translateY(-2px);
+  }
+}
 
 .nav-link {
-  color: white !important;
+  color: rgb(3, 3, 3) !important;
   font-size: 1rem !important;
   letter-spacing: 1px;
   font-weight: 500 !important;
@@ -88,20 +100,22 @@
 }
 
 .nav-link:hover {
-  color: #191919 !important;
+  color: #dd65dd !important;
+  transition: all 500ms;
+  animation: vibrate 30ms linear infinite forwards;
 }
 /*
 .resumebtn {
   width: 120px;
-  margin-left: 2rem !important;
-  border-radius: 5px !important;
-  padding: 0 20px !important;
-  font-size: 1.1rem !important;
-  letter-spacing: 1px !important;
-  color: #e8e8e8 !important;
+  margin-left: 2rem;
+  border-radius: 5px;
+  padding: 0 20px;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  color: #e8e8e8;
   background-image: linear-gradient(43deg, #4158d0 0%, #ad23a4 100%);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 10px;
-  border: none !important;
+  border: none;
 }
 */
 
@@ -120,9 +134,9 @@
     background-color: #2c1938;
     background-image: linear-gradient(
       43deg,
-      #19245f 0%,
-      #794575 46%,
-      #584a2e 100%
+      #a26ad6 0%,
+      #dd65dd 46%,
+      #433358 100%
     );
   }
   .nav-link {
@@ -150,9 +164,9 @@
   background-color: #ffffff;
   background-image: linear-gradient(
     43deg,
-    #19245f 0%,
-    #794575 46%,
-    #584a2e 100%
+    #a26ad6 0%,
+    #be76be 46%,
+    #433358 100%
   );
 }
 .row {
@@ -225,6 +239,10 @@
   background-size: contain;
   background-position: center;
 }
+.imagedeveloper:hover {
+  transition: all 600ms;
+  animation: vibrate 30ms linear infinite forwards;
+}
 .socailmediabtn {
   margin-top: 2rem;
   width: 90px;
@@ -234,7 +252,7 @@
   border-radius: 15px;
 }
 .socailmediabtn:hover {
-  background-color: rgba(252, 203, 248, 0.336);
+  background-color: rgba(255, 179, 250, 0.534);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
   opacity: 0.8;
 }
@@ -280,12 +298,12 @@
   width: 100%;
   height: 100%;
   min-height: 100vh;
-  background-color: #2d376d;
+  background-color: #f1f3ff;
   background-image: linear-gradient(
     43deg,
-    #19245f 0%,
-    #794575 46%,
-    #584a2e 100%
+    #a26ad6 0%,
+    #be76be 46%,
+    #433358 100%
   );
   padding-top: 110px;
 }
@@ -304,20 +322,14 @@
   font-weight: 600 !important;
   letter-spacing: 1px !important;
 }
+/*
 .aboutmetext span:hover {
   display: inline-block;
   transition: all 500ms;
-  color: #fff;
+  color: #dca1f7;
   animation: vibrate 30ms linear infinite forwards;
 }
-@keyframes vibrate {
-  0% {
-    transform: translateX(-1px) translateY(1px);
-  }
-  100% {
-    transform: translateX(1px) translateY(-2px);
-  }
-}
+*/
 .aboutdetails {
   font-size: 1.1em !important;
   font-family: 'Poppins';
@@ -338,14 +350,20 @@
   color: #e8e8e8;
 }
 .webimage {
-  max-width: 500px;
-  height: 450px;
+  max-width: 550px;
+  height: 600px;
   background-image: url(../assets/zakdevdad.jpg);
   border-radius: 30px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
+
+.webimage:hover {
+  transition: all 500ms;
+  animation: vibrate 30ms linear infinite forwards;
+}
+
 @media (max-width: 767px) {
   .aboutpagebackground {
     width: 100%;
@@ -365,12 +383,12 @@
 .projectbackground {
   width: 100%;
   height: 100%;
-  background-color: #626291;
+  background-color: #fefeff;
   background-image: linear-gradient(
     43deg,
-    #19245f 0%,
-    #794575 46%,
-    #584a2e 100%
+    #a26ad6 0%,
+    #be76be 46%,
+    #433358 100%
   );
 }
 .project-section {
@@ -424,6 +442,10 @@
   letter-spacing: 1px;
   font-family: 'Poppins' !important;
 }
+.viewbtn:hover {
+  transition: all 500ms;
+  animation: vibrate 30ms linear infinite forwards;
+}
 
 .btn-primary {
   color: #000000 !important;
@@ -471,12 +493,12 @@
   width: 100%;
   height: 100%;
   min-height: 100vh;
-  background-color: #2a2d3a;
+  background-color: #fbfcff;
   background-image: linear-gradient(
     43deg,
-    #19245f 0%,
-    #794575 46%,
-    #584a2e 100%
+    #a26ad6 0%,
+    #be76be 46%,
+    #433358 100%
   );
   padding-top: 110px;
 }
@@ -487,6 +509,12 @@
   font-weight: 800;
   letter-spacing: 1px;
 }
+
+.contacthead:hover {
+  transition: all 500ms;
+  color: #dca1f7;
+}
+
 .contactpara {
   padding-top: 1rem;
   text-align: center;
@@ -514,8 +542,11 @@
   background-color: transparent;
   letter-spacing: 2px;
 }
+
 .contactbtn:hover {
-  background-color: rgba(245, 126, 227, 0.2);
+  transition: all 500ms;
+  color: #dca1f7;
+  animation: vibrate 30ms linear infinite forwards;
 }
 
 .copyright {
@@ -542,7 +573,7 @@
   }
 }
 
-/* skils style  */
+/* skills style  */
 .skillsContainer{
   margin-top: 50px;
 }
